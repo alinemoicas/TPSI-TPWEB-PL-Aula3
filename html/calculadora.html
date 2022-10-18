@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript" src="../js/calculadora.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/calculadora.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <form id="form1" name="form1">
+            <p><input type="text" name="visor" id="visor"></p>
+            <p>
+                <input type="button" class="btn" value="9" onclick="valor(value);">
+                <input type="button" class="btn" value="8" onclick="valor(value);">
+                <input type="button" class="btn" value="7" onclick="valor(value);">
+                <input type="button" class="op" value="/" onclick="valor(value);">
+            </p>
+            <p>
+                <input type="button" class="btn" value="6" onclick="valor(value);">
+                <input type="button" class="btn" value="5" onclick="valor(value);">
+                <input type="button" class="btn" value="4" onclick="valor(value);">
+                <input type="button" class="op" value="-" onclick="valor(value);">
+            </p>
+            <p>
+                <input type="button" class="btn" value="3" onclick="valor(value);">
+                <input type="button" class="btn" value="2" onclick="valor(value);">
+                <input type="button" class="btn" value="1" onclick="valor(value);">
+                <input type="button" class="op" value="*" onclick="valor(value);">
+            </p>
+            <p>
+                <input type="button" class="op" value="." onclick="valor(value);">
+                <input type="button" class="btn" value="0" onclick="valor(value);">
+                <input type="button" class="btn" value="C" onclick="limpa();">
+                <input type="button" class="op" value="+" onclick="valor(value);">
+            </p>
+            <p>
+                <input type="button" class="igual" value="=" onclick="calcula();">
+            </p>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>

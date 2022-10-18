@@ -1,0 +1,38 @@
+#form1{
+    width: 350px;
+    height: 500px;
+    margin: auto;
+}
+
+#visor{
+    width: 350px;
+    height: 80px;
+    background-color: lightgreen;
+    text-align: right;
+}
+
+.btn{
+    width: 80px;
+    height: 80px;
+    font-size: 20pt;
+}
+
+.op{
+    width: 80px;
+    height: 80px;
+    font-size: 20pt;
+    background-color: gray;
+}
+
+p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.igual{
+    width: 350px;
+    height: 80px;
+    font-size: 20pt;
+    background-color: gray;
+}
